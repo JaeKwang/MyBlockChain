@@ -33,7 +33,9 @@
 
 ### 1️⃣ 필수 패키지 설치
 ```bash
-git clone...
+git clone https://github.com/JaeKwang/MyBlockChain.git
+```
+```bash
 npm install
 ```
 
