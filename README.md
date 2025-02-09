@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Blockchain-P2P-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Node.js-16-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Node.js-22.12-green?style=for-the-badge"/>
   <img src="https://img.shields.io/github/stars/your-repo?style=for-the-badge"/>
 </p>
 
@@ -22,7 +22,7 @@
 
 ## ⚡ 기술 스택
 <p align="center">
-  <img src="https://img.shields.io/badge/Node.js-16-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Node.js-22.12-green?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/WebSocket-WS-yellow?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Crypto-SHA256-blue?style=for-the-badge"/>
 </p>
@@ -38,7 +38,12 @@ npm install
 ```
 
 ### 2️⃣ Test
+- ✅ 거래 생성 및 블록 채굴 테스트
 ```bash
-git clone...
-npm install
+node .\testBlockChain.js
+```
+
+- ✅ Node 간 동기화 테스트
+```bash
+node .\testP2P.js
 ```
